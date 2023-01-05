@@ -3,7 +3,7 @@ library(mvnTest) #for existing testing methods
 library(ddalpha) #depth calculation
 library(mvtnorm) #normal and t distribution generation
 
-multivzscore=function(x) {  #x is the data set
+multivzscore <- function(x) {  #x is the data set
   x <- as.matrix(x)
   n <- nrow(x); p=ncol(x) #dimension of the data
   s <- cov(x) #covariance of the data
