@@ -1,4 +1,8 @@
 rm(list = ls())
+#This code produce the p-value of the proposed tests and some estisting tests 
+#H_0: X ~ N(0, I) against H_1: X ~ N(0,I)
+#The distribution of the data can be changed easily
+
 library(mvnTest) #for existing testing methods
 library(ddalpha) #depth calculation
 library(mvtnorm) #normal and t distribution generation
