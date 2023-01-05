@@ -1,6 +1,6 @@
 rm(list = ls())
 #This code produce the p-value of the proposed tests and some estisting tests 
-#H_0: X ~ N(0, I) against H_1: X ~ N(0,I)
+#H_0: X ~ N(0, I) against H_1: X ~ N(0,I) (Model A.1)
 #The distribution of the data can be changed easily
 
 library(mvnTest) #for existing testing methods
